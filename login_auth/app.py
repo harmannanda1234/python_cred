@@ -1,7 +1,7 @@
 from flask import Flask
 from routes.credentials import blp
 from flask_smorest import Api
- 
+
 app = Flask(__name__)
 app.config["PROPOGATE_EXCEPTIONS"]=True
 app.config["API_TITLE"]="users API"
